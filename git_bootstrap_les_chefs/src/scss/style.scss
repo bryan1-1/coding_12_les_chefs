@@ -97,21 +97,24 @@ margin: 0;}
     padding: 0;
 }
 
-.ingbot1{
-    position: absolute;
-    margin-left: 0;
-    margin-bottom: 0;
-}
-.imgbot2{
-position: absolute;
-margin-right: auto;
-}
+
+
 .center{
     text-align: center;
 }
-.chefs{background-image: url(../../public/images/team_background.jpg);}
+.chefs{background-image: url(../../public/images/team_background.jpg);
+   
+    background-repeat: no-repeat;
+    
+    background-size: cover;}
 
 .man{
     background-image: url(../../public/images/book_table_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.trans{background-color: rgba(255, 255, 255, 0);}
+.testi{
+    background-image: url(../../public/images/testimonials_background.jpg);
+}
