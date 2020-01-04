@@ -16137,4 +16137,16 @@ li {
   margin-right: auto;
 }
 
+.center {
+  text-align: center;
+}
+
+.chefs {
+  background-image: url(../../public/images/team_background.jpg);
+}
+
+.man {
+  background-image: url(../../public/images/book_table_bg.jpg);
+}
+
 /*# sourceMappingURL=sryle.css.map */
