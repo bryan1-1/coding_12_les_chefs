@@ -3,9 +3,9 @@
 @import"../scss/font";
 @import"../scss/icon";
 
-
+.courgy{font-family: cor;}
+span{font-family: cor;}
 .thenav{background-color: transparent;
-
 opacity: 1;}
 
 .carousel{  
@@ -13,41 +13,28 @@ position: absolute;
 top:0;
 z-index: -1;
 
-
 }
 .navbar-nav{
     text-transform: uppercase;
-    
-
 }
-
 
 .nav-link:hover{background-color: $danger;
 }
-   
-   
-  
-
 li{list-style: none;}
 .jumbotron{background-color: transparent;
-font-family: flaticon;}
+font-family: courg;}
 
 .fuck{
     filter: brightness(25%);
    
 }
+.carousel{height: 100vh; }
 
 .butto{
     font-family: flaticon;
   border-radius: 20px;  
 }
-
-
-
 .first{ border-image: url(../../public/images/bottom_decoration_img) 30 round;
-   
-  
-
  }
  .main{background-image: url(../../public/images/main_bg.jpg);}
 
@@ -57,18 +44,8 @@ margin: 5%;
 
  }
 
- 
-
- .section2{
-     background-image: url(../../public/images/main_bg.jpg);
- }
  .left{position: relative;
 top: -15px;}
-
-.a{
-  background-color: white;
-  
-}
 .content2{display: flex;
 justify-content: space-between;
 padding-left: -10px;
@@ -78,7 +55,6 @@ padding-left: -10px;
     background-color: white;
     color:$danger;
 }
-
 .list-group-item.active{
     background-color:$danger;
     border-right: $danger;
@@ -87,18 +63,13 @@ padding-left: -10px;
 .ehm{display: flex;
 align-items: center;
 margin: 0;}
-
 .why{
-    color: $danger;
-    
+    color: $danger;   
 }
 .menu{
     margin: 0;
     padding: 0;
 }
-
-
-
 .center{
     text-align: center;
 }
@@ -107,14 +78,20 @@ margin: 0;}
     background-repeat: no-repeat;
     
     background-size: cover;}
-
 .man{
     background-image: url(../../public/images/book_table_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .trans{background-color: rgba(255, 255, 255, 0);}
 .testi{
     background-image: url(../../public/images/testimonials_background.jpg);
 }
+.negative{
+    margin-top: -20px;
+}
+.decoball{
+    background-image: url(../../public/images/footer_bottom_decoration_img.png);
+   padding:5px;
+   background-repeat: repeat-x;   }
+ 

@@ -10157,6 +10157,10 @@ h3 {
   font-family: "family";
   src: url("../../public/fonts/Flaticon.woff");
 }
+@font-face {
+  font-family: cor;
+  src: url("../../public/fonts/Courgette-Regular.ttf");
+}
 /*!
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -16033,6 +16037,14 @@ readers do not read off random characters that represent icons */
   font-family: "Font Awesome 5 Brands";
 }
 
+.courgy {
+  font-family: cor;
+}
+
+span {
+  font-family: cor;
+}
+
 .thenav {
   background-color: transparent;
   opacity: 1;
@@ -16058,11 +16070,15 @@ li {
 
 .jumbotron {
   background-color: transparent;
-  font-family: flaticon;
+  font-family: courg;
 }
 
 .fuck {
   filter: brightness(25%);
+}
+
+.carousel {
+  height: 100vh;
 }
 
 .butto {
@@ -16082,17 +16098,9 @@ li {
   margin: 5%;
 }
 
-.section2 {
-  background-image: url(../../public/images/main_bg.jpg);
-}
-
 .left {
   position: relative;
   top: -15px;
-}
-
-.a {
-  background-color: white;
 }
 
 .content2 {
@@ -16148,6 +16156,16 @@ li {
 
 .testi {
   background-image: url(../../public/images/testimonials_background.jpg);
+}
+
+.negative {
+  margin-top: -20px;
+}
+
+.decoball {
+  background-image: url(../../public/images/footer_bottom_decoration_img.png);
+  padding: 5px;
+  background-repeat: repeat-x;
 }
 
 /*# sourceMappingURL=style.css.map */

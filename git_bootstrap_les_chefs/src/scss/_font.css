@@ -6,3 +6,7 @@
   font-family: "family";
   src: url("../../public/fonts/Flaticon.woff");
 }
+@font-face {
+  font-family: cor;
+  src: url("../../public/fonts/Courgette-Regular.ttf");
+}
